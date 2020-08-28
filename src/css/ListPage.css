@@ -1,0 +1,23 @@
+table {
+  font-family: 'Trebuchet MS';
+  font-size: small;
+  color: lightgray;
+  border-collapse: collapse;
+  background-color: black;
+}
+
+table, th, td {
+  border: 1px solid #ffcd01;
+  padding: 5px;
+  text-align: left;
+}
+
+thead {
+  background-color: #ffcd01;
+  color: black;
+}
+
+img {
+  height: 50px;;
+  border-radius: 50px;
+}

@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import { ListPage } from './components/ListPage';
-import './css/App.css';
 
 function App() {
   return (

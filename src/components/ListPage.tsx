@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import User from '../interfaces/User'
 import axios from 'axios';
+import '../css/ListPage.css';
 
 interface State {
   users: User[];
@@ -38,9 +39,9 @@ export class ListPage extends Component<{}, State> {
           <thead>
             <tr>
               <th>id</th>
-              <th>E-mail</th>
               <th>First Name</th>
               <th>Last Name</th>
+              <th>E-mail</th>
               <th>Avatar</th>
             </tr>
           </thead>
@@ -49,9 +50,9 @@ export class ListPage extends Component<{}, State> {
               this.state.users.map(user => 
                 <tr key={user.id}>
                   <td>{user.id}</td>
-                  <td>{user.email}</td>
                   <td>{user.first_name}</td>
                   <td>{user.last_name}</td>
+                  <td>{user.email}</td>
                   <td><img src={user.avatar} alt={user.first_name} /></td>
                 </tr>
               )
