@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import User from '../interfaces/User'
+import User from '../class/User'
 import axios from 'axios';
 import '../css/ListPage.css';
 
